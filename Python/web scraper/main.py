@@ -31,7 +31,6 @@ price_lst = soup.find_all(attrs={"data-ux": "PriceMajor"})
 prices = [price.text for price in price_lst]
 
 #Added Prices that were missing
-prices[5] = '5 wings - 4.25, 10 wings - 8.25'
 prices[8] = 'Pork - 5.25, Beef Brisket - 5.75'
 prices[14] = 'Lunch Size - 8.25, Dinner Size 10.25'
 prices[15] = 'Lunch Size - 8.95, Dinner Size 11.25'

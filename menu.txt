@@ -5,7 +5,7 @@ Cheesesticks	3.29
 Onion Rings	1.55
 Nachos	3.50
 Fried Pickles	3.95
-Wings (traditional)	5 wings - 4.25, 10 wings - 8.25
+Wings (traditional)	5.25
 Pork or Chicken	4.25
 Beef Brisket	4.75
 "Big Beau" Sandwiches	Pork - 5.25, Beef Brisket - 5.75
