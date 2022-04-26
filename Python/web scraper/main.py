@@ -31,12 +31,13 @@ price_lst = soup.find_all(attrs={"data-ux": "PriceMajor"})
 prices = [price.text for price in price_lst]
 
 #Added Prices that were missing
-prices[8] = 'Pork - 5.25, Beef Brisket - 5.75'
-prices[14] = 'Lunch Size - 8.25, Dinner Size 10.25'
-prices[15] = 'Lunch Size - 8.95, Dinner Size 11.25'
-prices[16] = 'Lunch Size - 10.45, Dinner Size 20.95'
-prices[24] = '1/4 - 4.95, 1/2 - 9.75, 3/4 - 14.25, Full Slab - 18.95'
-prices[27] = '1 Fillet - 6.75, 2 Fillets - 9.95'
+prices[5] = 'Pork - 4.25, Beef Brisket - 4.75'
+prices[6] = 'Pork - 5.25, Beef Brisket - 5.75'
+prices[13] = 'Lunch Size - 8.25, Dinner Size 10.25'
+prices[14] = 'Lunch Size - 8.95, Dinner Size 11.25'
+prices[15] = 'Lunch Size - 10.45, Dinner Size 20.95'
+prices[23] = '1/4 - 4.95, 1/2 - 9.75, 3/4 - 14.25, Full Slab - 18.95'
+prices[26] = '1 Fillet - 6.75, 2 Fillets - 9.95'
 prices[39] = 'Regular - 1.79, Large - 1.99'
 
 
@@ -51,9 +52,9 @@ soup = BeautifulSoup(main_page.content, 'html.parser')
 
 #Contact Section
 find_p = soup.find_all('p')
-address_info = [p.text for p in find_p]
+address_info = [p.text for p in find_p if p.text]
 address = address_info[1]
-number = address_info[0]
+number, email = address_info[2].split("\n")
 open_hours = address_info[6]
 closed_hours = address_info[7][:15]
 
@@ -64,23 +65,23 @@ with open('contact.txt', 'w') as f:
     f.write('Beaugards Contact Information')
     f.write('\n')
     f.write('\n')
-    f.write(f'Address\t{address}\n')
-    f.write(f'Number\t{number}\n')
+    f.write(f'Address | {address}\n')
+    f.write(f'Number | {number}\n')
+    f.write(f'Email | {email}\n')
     f.write(f'Hours of Operation\n')
-    f.write(f'Open\t{open_hours}\n')
-    f.write(f'Closed\t{closed_hours}')
+    f.write(f'Open | {open_hours}\n')
+    f.write(f'Closed | {closed_hours}')
     f.close()
 
 
 
 #Writes ALL Menu information to a file
 with open('menu.txt', 'w') as f:
-    f.write(menu_title[7:])
+    f.write(menu_title)
     f.write('\n')
-    f.write('\n')
-    for x in range(45):
+    for x in range(44):
         f.write(menu_items[x])
-        f.write('\t')
+        f.write(" | ")
         f.write(prices[x])
         f.write('\n')
     f.close()

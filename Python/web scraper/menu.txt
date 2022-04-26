@@ -1,47 +1,45 @@
-
-
-Ultimate Starter	10.45
-Cheesesticks	3.29
-Onion Rings	1.55
-Nachos	3.50
-Fried Pickles	3.95
-Wings (traditional)	5.25
-Pork or Chicken	4.25
-Beef Brisket	4.75
-"Big Beau" Sandwiches	Pork - 5.25, Beef Brisket - 5.75
-BLT	3.45
-Wraps	4.50
-Fried Bologna	3.25
-Sampler Plate	13.60
-Combo Plate	10.45
-Pulled Pork or Pulled Chicken Plate	Lunch Size - 8.25, Dinner Size 10.25
-Beef Brisket Plate	Lunch Size - 8.95, Dinner Size 11.25
-Rib Plate	Lunch Size - 10.45, Dinner Size 20.95
-Purchased separately	1.39
-1/4 Hamburger	2.45
-1/2 Hamburger	3.65
-1/2 Pound Pulled Pork or Pulled Chicken	6.25
-1 Pound Pulled Pork or Pulled Chicken	9.95
-1/2 Pound Beef Brisket	6.95
-1 Pound Beef Brisket	11.55
-Pork Spare Ribs:	1/4 - 4.95, 1/2 - 9.75, 3/4 - 14.25, Full Slab - 18.95
-Chicken Leg Quarter	3.95
-Fried Chicken Strips	3.65
-Catfish/Cod Plate	1 Fillet - 6.75, 2 Fillets - 9.95
-Catfish/Cod Sandwich	4.25
-Pig Salad	4.75
-Chicken Salad	4.50
-Garden Salad	3.25
-Side Salad	1.95
-Chicken Nuggets	2.95
-Grilled Cheese	2.25
-Corn Dog	2.75
-Macaroni & Cheese	2.25
-Slice of Pie	2.25
-Bottle	3.00
-Fountain Drink or Tea	Regular - 1.79, Large - 1.99
-Bottled Water	1.00
-Coffee or Hot Tea	1.00
-Hot Chocolate	1.29
-Milk or Juice	1.00
-Gatorade	1.50
+Menu
+Starter | 10.75
+Cheesesticks | 3.29
+Onion Rings | 1.55
+Nachos | 3.75
+Fried Pickles | 3.95
+"Regular" | Pork - 4.25, Beef Brisket - 4.75
+"Big Beau" (Double the Meat) | Pork - 5.25, Beef Brisket - 5.75
+BLT | 3.50
+Wrap | 4.50
+Big Wrap (Double the Meat) | 5.50
+Fried Bologna | 3.50
+Sampler Plate | 13.60
+Combo Plate | 10.45
+Pulled Pork or Pulled Chicken Plate | Lunch Size - 8.25, Dinner Size 10.25
+Beef Brisket Plate | Lunch Size - 8.95, Dinner Size 11.25
+Rib Plate | Lunch Size - 10.45, Dinner Size 20.95
+Purchased separately | 1.39
+1/4 Hamburger | 2.75
+1/2 Hamburger | 3.95
+1/2 Pound Pulled Pork or Pulled Chicken | 6.25
+1 Pound Pulled Pork or Pulled Chicken | 9.95
+1/2 Pound Beef Brisket | 6.95
+1 Pound Beef Brisket | 11.55
+Pork Spare Ribs: | 1/4 - 4.95, 1/2 - 9.75, 3/4 - 14.25, Full Slab - 18.95
+Chicken Leg Quarter | 3.95
+Fried Chicken Strips | 3.75
+Catfish/Cod Plate | 1 Fillet - 6.75, 2 Fillets - 9.95
+Catfish/Cod Sandwich | 4.50
+Pig Salad | 4.75
+Chicken Salad | 4.75
+Garden Salad | 3.50
+Side Salad | 1.95
+Chicken Nuggets | 2.95
+Grilled Cheese | 2.25
+Corn Dog | 2.75
+Macaroni & Cheese | 2.25
+Slice of Pie | 2.50
+Bottle | 3.00
+Extra Cup | .40
+Fountain Drink or Tea | Regular - 1.79, Large - 1.99
+Bottled Water | 1.00
+Coffee or Hot Tea | 1.29
+Juice Box | 1.00
+Bottled Pepsi Products | 2.00
